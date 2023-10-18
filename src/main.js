@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
+import '@sweetalert2/theme-dark'
+import 'bootstrap/dist/css/bootstrap.css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(VueSweetalert2);
+app.mount('#app');
