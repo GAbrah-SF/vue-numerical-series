@@ -19,6 +19,7 @@ let form_number = {
     },
     name: 'FormNumber',
     props: {
+        title: String,
         msg: String,
     },
     methods: {

@@ -7,7 +7,7 @@
         <label for="number_calculate" class="form-label fs-2 text-black">n =</label>
       </div>
       <div class="col-1">
-        <input id="number_to_calculate" v-model="number" type="text" class="form-control text-center fs-3"
+        <input id="number_to_calculate" type="text" class="form-control text-center fs-3"
                placeholder="" minlength="3" maxlength="3" @input="onlyNumber">
       </div>
       <div class="col-auto">

@@ -7,5 +7,5 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const app = createApp(App)
 
-app.use(VueSweetalert2);
-app.mount('#app');
+app.use(VueSweetalert2)
+app.mount('#app')
